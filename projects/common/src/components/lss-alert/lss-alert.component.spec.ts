@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CommonComponent } from './common.component';
+import { LssAlertComponent } from './lss-alert.component';
 
-describe('CommonComponent', () => {
-  let component: CommonComponent;
-  let fixture: ComponentFixture<CommonComponent>;
+describe('LssAlertComponent', () => {
+  let component: LssAlertComponent;
+  let fixture: ComponentFixture<LssAlertComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CommonComponent]
+      imports: [LssAlertComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CommonComponent);
+    fixture = TestBed.createComponent(LssAlertComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

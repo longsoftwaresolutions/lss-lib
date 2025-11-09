@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/common",
       "sourceRoot": "projects/common/src",
-      "prefix": "lib",
+      "prefix": "lss",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
